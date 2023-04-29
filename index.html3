@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>User Registration Form</h1>
+
+    <label for="">Name :</label>
+    <input type="text" /><br /><br />
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="" /><br /><br />
+
+    <label for="password">password :</label>
+    <input type="password" /><br /><br />
+
+    <label for="password confirm">confirm password :</label>
+    <input type="password" /><br /><br />
+
+    <label for="DOB">Date of Birth :</label>
+    <input type="date" name="DOB" id="" /><br /><br />
+
+    <p>
+      Gender :<br />
+      <input type="radio" name="gender" /> Male <br />
+      <input type="radio" name="gender" /> Female<br /><br />
+    </p>
+
+    <p>
+      Intrests :<br />
+      <input type="checkbox" /> Music <br />
+      <input type="checkbox" /> Dance <br />
+      <input type="checkbox" /> Painting <br /><br />
+    </p>
+
+    <input type="button" value="Reset" />
+    <input type="button" value="Submit" />
+  </body>
+</html>
